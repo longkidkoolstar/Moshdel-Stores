@@ -61,7 +61,7 @@ const BrandSection = () => {
           {brands.map((brand, index) => (
             <Link
               key={brand.name}
-              to={`/brands?brand=${encodeURIComponent(brand.name)}`}
+              to={`/new-arrivals?brand=${encodeURIComponent(brand.name)}`}
               className={`group relative overflow-hidden rounded-lg cursor-pointer shadow-lg shadow-black/20 transition-all duration-700 transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}
               style={{ transitionDelay: `${index * 150}ms` }}
             >
