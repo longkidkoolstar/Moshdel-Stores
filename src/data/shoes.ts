@@ -18,7 +18,7 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 1999.99,
     rating: 4.9,
-    image: "https://images.stockx.com/360/Air-Jordan-1-Retro-High-Travis-Scott/Images/Air-Jordan-1-Retro-High-Travis-Scott/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    image: "https://images.stockx.com/360/Air-Jordan-1-Retro-High-Travis-Scott/Images/Air-Jordan-1-Retro-High-Travis-Scott/Lv2/img01.jpg?w=6000&q=60&dpr=1&updated_at=1635191289&h=6000",
     isNew: true,
     has360View: true,
     image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-1-Retro-High-Travis-Scott/Images/Air-Jordan-1-Retro-High-Travis-Scott/Lv2/img",
@@ -254,7 +254,7 @@ const shoes: Shoe[] = [
   },
   {
     id: 27,
-    name: "Air Jordan Retro Low GS 'Cement Grey'",
+    name: "Air Jordan Retro Low 'Cement Grey'",
     brand: "Jordan",
     price: 199.99,
     rating: 4.6,
@@ -731,7 +731,7 @@ const shoes: Shoe[] = [
   },
   {
     id: 80,
-    name: "Air Jordan 3 Retro GS 'White Cement Reimagined'",
+    name: "Air Jordan 3 Retro 'White Cement Reimagined'",
     brand: "Jordan",
     price: 199.99,
     rating: 4.6,
