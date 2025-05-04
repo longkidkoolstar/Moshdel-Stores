@@ -18,8 +18,12 @@ const NewArrivalsPage = () => {
     ? shoes.filter(product => product.brand === selectedBrand)
     : shoes;
 
-  // Animation on scroll
+  // Animation on mount and brand change
   useEffect(() => {
+    // Reset visibility first to ensure animation plays when brand changes
+    setIsVisible(false);
+
+    // Use both IntersectionObserver and a fallback timer
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -34,10 +38,16 @@ const NewArrivalsPage = () => {
       observer.observe(sectionRef.current);
     }
 
+    // Fallback timer to ensure visibility even if IntersectionObserver doesn't trigger
+    const timer = setTimeout(() => {
+      setIsVisible(true);
+    }, 300);
+
     return () => {
       observer.disconnect();
+      clearTimeout(timer);
     };
-  }, []);
+  }, [selectedBrand]);
 
   // Toggle favorite status
   const toggleFavorite = (id: number) => {
@@ -75,8 +85,8 @@ const NewArrivalsPage = () => {
           {filteredProducts.map((product, index) => (
             <div
               key={product.id}
-              className={`group bg-zinc-900/80 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 transform hover:-translate-y-1 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}
-              style={{ transitionDelay: `${index * 100}ms` }}
+              className={`group bg-zinc-900/80 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-700 transform hover:-translate-y-1 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}
+              style={{ transitionDelay: `${Math.min(index * 70, 800)}ms` }}
             >
               <div className="relative aspect-square overflow-hidden">
                 {/* New badge */}

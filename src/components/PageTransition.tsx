@@ -16,7 +16,10 @@ const PageTransition: React.FC<PageTransitionProps> = ({ children }) => {
       setTimeout(() => {
         setDisplayLocation(location);
         setTransitionStage('fadeIn');
-      }, 300);
+      }, 200); // Reduced from 300ms to 200ms for faster transitions
+    } else {
+      // Ensure content is visible when directly navigating to a page
+      setTransitionStage('fadeIn');
     }
   }, [location, displayLocation]);
 
