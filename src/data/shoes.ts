@@ -15,7 +15,7 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 1999.99,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1586525198428-225f6f12cff5?auto=format&fit=crop&q=80",
+    image: "https://images.stockx.com/360/Air-Jordan-1-Retro-High-Travis-Scott/Images/Air-Jordan-1-Retro-High-Travis-Scott/Lv2/img01.jpg",
     isNew: true
   },
   {
@@ -24,7 +24,7 @@ const shoes: Shoe[] = [
     brand: "Alexander McQueen",
     price: 899.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&q=80",
+    image: "https://images.stockx.com/360/Alexander-McQueen-Oversized-Ivory-Black/Images/Alexander-McQueen-Oversized-Ivory-Black/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1700839827&h=384",
     isNew: true
   },
   {
