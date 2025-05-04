@@ -7,6 +7,7 @@ import BrandsPage from './pages/BrandsPage';
 import NewArrivalsPage from './pages/NewArrivalsPage';
 import ContactPage from './pages/ContactPage';
 import CheckoutPage from './pages/CheckoutPage';
+import ProductDetailPage from './pages/ProductDetailPage';
 import Cart from './components/Cart';
 import PageTransition from './components/PageTransition';
 import { CartProvider } from './context/CartContext';
@@ -36,6 +37,7 @@ function App() {
                 <Route path="/" element={<HomePage />} />
                 <Route path="/brands" element={<BrandsPage />} />
                 <Route path="/new-arrivals" element={<NewArrivalsPage />} />
+                <Route path="/product/:id" element={<ProductDetailPage />} />
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="/checkout" element={<CheckoutPage />} />
               </Routes>

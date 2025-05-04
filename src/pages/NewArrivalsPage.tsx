@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams, Link } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
-import { ShoppingBag, Heart, Star, Plus } from 'lucide-react';
+import { ShoppingBag, Heart, Star, Plus, Eye, RotateCw } from 'lucide-react';
 import shoes from '../data/shoes';
 
 const NewArrivalsPage = () => {
@@ -96,6 +96,14 @@ const NewArrivalsPage = () => {
                   </div>
                 )}
 
+                {/* 360 view badge */}
+                {product.has360View && (
+                  <div className="absolute top-3 left-16 z-10 bg-blue-500 text-white text-xs font-bold px-2 py-1 rounded-full flex items-center">
+                    <RotateCw className="h-3 w-3 mr-1" />
+                    360°
+                  </div>
+                )}
+
                 {/* Favorite button */}
                 <button
                   onClick={(e) => {
@@ -118,7 +126,7 @@ const NewArrivalsPage = () => {
                 />
 
                 {/* Quick add overlay */}
-                <div className="absolute inset-0 bg-black/60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute inset-0 bg-black/60 flex items-center justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <button
                     onClick={() => handleAddToCart(product)}
                     className="bg-white text-black p-3 rounded-full transform translate-y-4 group-hover:translate-y-0 transition-all duration-300 hover:bg-gray-200 flex items-center space-x-2"
@@ -126,6 +134,14 @@ const NewArrivalsPage = () => {
                     <ShoppingBag className="h-5 w-5" />
                     <span>Quick Add</span>
                   </button>
+
+                  <Link
+                    to={`/product/${product.id}`}
+                    className="bg-zinc-800 text-white p-3 rounded-full transform translate-y-4 group-hover:translate-y-0 transition-all duration-300 hover:bg-zinc-700 flex items-center space-x-2"
+                  >
+                    <Eye className="h-5 w-5" />
+                    <span>View Details</span>
+                  </Link>
                 </div>
               </div>
 
@@ -134,7 +150,9 @@ const NewArrivalsPage = () => {
                 <p className="text-sm text-gray-400 mb-1">{product.brand}</p>
 
                 {/* Product name */}
-                <h3 className="text-lg font-semibold group-hover:text-white transition-colors">{product.name}</h3>
+                <Link to={`/product/${product.id}`} className="block">
+                  <h3 className="text-lg font-semibold group-hover:text-white transition-colors hover:underline">{product.name}</h3>
+                </Link>
 
                 {/* Rating */}
                 <div className="flex items-center mt-2">

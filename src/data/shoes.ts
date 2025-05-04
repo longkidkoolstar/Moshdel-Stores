@@ -6,6 +6,9 @@ interface Shoe {
   rating: number;
   image: string;
   isNew: boolean;
+  has360View?: boolean;
+  image360BaseUrl?: string;
+  image360Frames?: number;
 }
 
 const shoes: Shoe[] = [
@@ -15,8 +18,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 1999.99,
     rating: 4.9,
-    image: "https://images.stockx.com/360/Air-Jordan-1-Retro-High-Travis-Scott/Images/Air-Jordan-1-Retro-High-Travis-Scott/Lv2/img01.jpg",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-1-Retro-High-Travis-Scott/Images/Air-Jordan-1-Retro-High-Travis-Scott/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-1-Retro-High-Travis-Scott/Images/Air-Jordan-1-Retro-High-Travis-Scott/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 2,
@@ -25,7 +31,10 @@ const shoes: Shoe[] = [
     price: 899.99,
     rating: 4.7,
     image: "https://images.stockx.com/360/Alexander-McQueen-Oversized-Ivory-Black/Images/Alexander-McQueen-Oversized-Ivory-Black/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1700839827&h=384",
-    isNew: true
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Alexander-McQueen-Oversized-Ivory-Black/Images/Alexander-McQueen-Oversized-Ivory-Black/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 3,
@@ -767,4 +776,4 @@ const shoes: Shoe[] = [
   }
 ];
 
-export default shoes; 
+export default shoes;
