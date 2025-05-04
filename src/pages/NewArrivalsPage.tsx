@@ -2,81 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import { ShoppingBag, Heart, Star, Plus } from 'lucide-react';
-
-const newArrivals = [
-  {
-    id: 1,
-    name: 'Nike Air Max 2025',
-    brand: 'Nike',
-    price: 199.99,
-    rating: 4.8,
-    image: 'https://images.unsplash.com/photo-1605348532760-6753d2c43329?auto=format&fit=crop&q=80',
-    isNew: true
-  },
-  {
-    id: 2,
-    name: 'Balenciaga Triple S',
-    brand: 'Balenciaga',
-    price: 899.99,
-    rating: 4.5,
-    image: 'https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&q=80',
-    isNew: true
-  },
-  {
-    id: 3,
-    name: 'Jordan 1 Retro High',
-    brand: 'Jordan',
-    price: 299.99,
-    rating: 4.9,
-    image: 'https://images.unsplash.com/photo-1586525198428-225f6f12cff5?auto=format&fit=crop&q=80',
-    isNew: true
-  },
-  {
-    id: 4,
-    name: 'Gucci Ace Sneakers',
-    brand: 'Gucci',
-    price: 699.99,
-    rating: 4.7,
-    image: 'https://images.unsplash.com/photo-1595341888016-a392ef81b7de?auto=format&fit=crop&q=80',
-    isNew: true
-  },
-  {
-    id: 5,
-    name: 'Adidas Ultraboost 22',
-    brand: 'Adidas',
-    price: 189.99,
-    rating: 4.6,
-    image: 'https://images.unsplash.com/photo-1608379743498-63e07f345a6b?auto=format&fit=crop&q=80',
-    isNew: true
-  },
-  {
-    id: 6,
-    name: 'Prada Cloudbust Thunder',
-    brand: 'Prada',
-    price: 799.99,
-    rating: 4.4,
-    image: 'https://images.unsplash.com/photo-1543508282-6319a3e2621f?auto=format&fit=crop&q=80',
-    isNew: true
-  },
-  {
-    id: 7,
-    name: 'Yeezy Boost 350',
-    brand: 'Adidas',
-    price: 249.99,
-    rating: 4.8,
-    image: 'https://images.unsplash.com/photo-1556906781-9a412961c28c?auto=format&fit=crop&q=80',
-    isNew: false
-  },
-  {
-    id: 8,
-    name: 'Dior B23 High Top',
-    brand: 'Dior',
-    price: 1099.99,
-    rating: 4.9,
-    image: 'https://images.unsplash.com/photo-1549298916-f52d724204b4?auto=format&fit=crop&q=80',
-    isNew: false
-  },
-];
+import shoes from '../data/shoes';
 
 const NewArrivalsPage = () => {
   const [searchParams] = useSearchParams();
@@ -89,8 +15,8 @@ const NewArrivalsPage = () => {
 
   // Filter products based on selected brand
   const filteredProducts = selectedBrand
-    ? newArrivals.filter(product => product.brand === selectedBrand)
-    : newArrivals;
+    ? shoes.filter(product => product.brand === selectedBrand)
+    : shoes;
 
   // Animation on scroll
   useEffect(() => {
@@ -121,7 +47,7 @@ const NewArrivalsPage = () => {
   };
 
   // Add to cart with animation
-  const handleAddToCart = (product: typeof newArrivals[0]) => {
+  const handleAddToCart = (product: typeof shoes[0]) => {
     dispatch({ type: 'ADD_TO_CART', payload: product });
 
     // Show added animation
