@@ -42,8 +42,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-11-Retro-Cherry-2022/Images/Air-Jordan-11-Retro-Cherry-2022/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1669105028&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-11-Retro-Cherry-2022/Images/Air-Jordan-11-Retro-Cherry-2022/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 4,
@@ -51,8 +54,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.6,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: false
+    image: "https://images.stockx.com/360/Air-Jordan-11-Retro-Cap-And-Gown/Images/Air-Jordan-11-Retro-Cap-And-Gown/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635261220&h=384",
+    isNew: false,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-11-Retro-Cap-And-Gown/Images/Air-Jordan-11-Retro-Cap-And-Gown/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 5,
@@ -60,8 +66,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 399.99,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1586525198428-225f6f12cff5?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-1-Retro-High-OG-Bred-Patent/Images/Air-Jordan-1-Retro-High-OG-Bred-Patent/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1634062853&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-1-Retro-High-OG-Bred-Patent/Images/Air-Jordan-1-Retro-High-OG-Bred-Patent/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 6,
@@ -69,8 +78,11 @@ const shoes: Shoe[] = [
     brand: "Dior",
     price: 1299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1597248881519-db089d3744a5?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Dior-B22-Reflective-Black/Images/Dior-B22-Reflective-Black/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1623724845&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Dior-B22-Reflective-Black/Images/Dior-B22-Reflective-Black/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 7,
@@ -78,8 +90,11 @@ const shoes: Shoe[] = [
     brand: "Off-White",
     price: 899.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-4-Retro-Off-White-Sail-W/Images/Air-Jordan-4-Retro-Off-White-Sail-W/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1634934807&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-4-Retro-Off-White-Sail-W/Images/Air-Jordan-4-Retro-Off-White-Sail-W/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 8,
@@ -87,8 +102,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.6,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-4-Retro-SE-Paris/Images/Air-Jordan-4-Retro-SE-Paris/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1719602407&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-4-Retro-SE-Paris/Images/Air-Jordan-4-Retro-SE-Paris/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 9,
@@ -96,8 +114,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-3-Retro-Fire-Red-2022/Images/Air-Jordan-3-Retro-Fire-Red-2022/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1663622420&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-3-Retro-Fire-Red-2022/Images/Air-Jordan-3-Retro-Fire-Red-2022/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 10,
@@ -105,8 +126,11 @@ const shoes: Shoe[] = [
     brand: "Balenciaga",
     price: 899.99,
     rating: 4.6,
-    image: "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Balenciaga-Track-White/Images/Balenciaga-Track-White/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1696602551&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Balenciaga-Track-White/Images/Balenciaga-Track-White/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 11,
@@ -114,8 +138,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-4-Retro-Taupe-Haze/Images/Air-Jordan-4-Retro-Taupe-Haze/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-4-Retro-Taupe-Haze/Images/Air-Jordan-4-Retro-Taupe-Haze/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 12,
@@ -123,8 +150,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-4-Retro-Lightning/Images/Air-Jordan-4-Retro-Lightning/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-4-Retro-Lightning/Images/Air-Jordan-4-Retro-Lightning/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 13,
@@ -132,8 +162,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-5-Retro-OG-Black-Metallic-Reimagined/Images/Air-Jordan-5-Retro-OG-Black-Metallic-Reimagined/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-5-Retro-OG-Black-Metallic-Reimagined/Images/Air-Jordan-5-Retro-OG-Black-Metallic-Reimagined/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 14,
@@ -141,8 +174,11 @@ const shoes: Shoe[] = [
     brand: "Balenciaga",
     price: 899.99,
     rating: 4.6,
-    image: "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Balenciaga-Speed-Trainer-Black-White-2021/Images/Balenciaga-Speed-Trainer-Black-White-2021/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1649430565&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Balenciaga-Speed-Trainer-Black-White-2021/Images/Balenciaga-Speed-Trainer-Black-White-2021/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 15,
@@ -150,8 +186,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 399.99,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Air-Jordan-4-Retro-OG-SP-Nigel-Sylvester-Bike-Air-Firewood-Orange/Images/Air-Air-Jordan-4-Retro-OG-SP-Nigel-Sylvester-Bike-Air-Firewood-Orange/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1741195086&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Air-Jordan-4-Retro-OG-SP-Nigel-Sylvester-Bike-Air-Firewood-Orange/Images/Air-Air-Jordan-4-Retro-OG-SP-Nigel-Sylvester-Bike-Air-Firewood-Orange/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 16,
@@ -159,8 +198,11 @@ const shoes: Shoe[] = [
     brand: "Balenciaga",
     price: 899.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Balenciaga-Track-Hike-Black-Black-White/Images/Balenciaga-Track-Hike-Black-Black-White/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1695741604&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Balenciaga-Track-Hike-Black-Black-White/Images/Balenciaga-Track-Hike-Black-Black-White/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 17,
@@ -168,8 +210,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-3-Retro-Fire-Red-Cement-Nike-Chi/Images/Air-Jordan-3-Retro-Fire-Red-Cement-Nike-Chi/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635262034&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-3-Retro-Fire-Red-Cement-Nike-Chi/Images/Air-Jordan-3-Retro-Fire-Red-Cement-Nike-Chi/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 18,
@@ -177,8 +222,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 399.99,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1586525198428-225f6f12cff5?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-1-High-OG-UNC-Toe/Images/Air-Jordan-1-High-OG-UNC-Toe/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1688674754&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-1-High-OG-UNC-Toe/Images/Air-Jordan-1-High-OG-UNC-Toe/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 19,
@@ -186,8 +234,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-4-Retro-Frozen-Moments-Womens/Images/Air-Jordan-4-Retro-Frozen-Moments-Womens/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1692624367&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-4-Retro-Frozen-Moments-Womens/Images/Air-Jordan-4-Retro-Frozen-Moments-Womens/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 20,
@@ -195,8 +246,11 @@ const shoes: Shoe[] = [
     brand: "Off-White",
     price: 899.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-5-Retro-Off-White-Black/Images/Air-Jordan-5-Retro-Off-White-Black/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635186949&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-5-Retro-Off-White-Black/Images/Air-Jordan-5-Retro-Off-White-Black/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 21,
@@ -204,8 +258,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-5-Retro-Raging-Bulls-Red-2021/Images/Air-Jordan-5-Retro-Raging-Bulls-Red-2021/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635261686&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-5-Retro-Raging-Bulls-Red-2021/Images/Air-Jordan-5-Retro-Raging-Bulls-Red-2021/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 22,
@@ -213,8 +270,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-5-Retro-Off-White-Black/Images/Air-Jordan-5-Retro-Off-White-Black/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635186949&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-5-Retro-Off-White-Black/Images/Air-Jordan-5-Retro-Off-White-Black/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 23,
@@ -222,8 +282,11 @@ const shoes: Shoe[] = [
     brand: "Balenciaga",
     price: 899.99,
     rating: 4.6,
-    image: "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Balenciaga-Runner-Matte-Black/Images/Balenciaga-Runner-Matte-Black/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1714054909&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Balenciaga-Runner-Matte-Black/Images/Balenciaga-Runner-Matte-Black/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 24,
@@ -231,8 +294,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-5-Retro-UNC-University-Blue/Images/Air-Jordan-5-Retro-UNC-University-Blue/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1678267312&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-5-Retro-UNC-University-Blue/Images/Air-Jordan-5-Retro-UNC-University-Blue/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 25,
@@ -240,8 +306,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-11-Retro-Legend-Blue-2024/Images/Air-Jordan-11-Retro-Legend-Blue-2024/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1732742386&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-11-Retro-Legend-Blue-2024/Images/Air-Jordan-11-Retro-Legend-Blue-2024/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 26,
@@ -249,8 +318,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: false
+    image: "https://images.stockx.com/360/Air-Jordan-11-Retro-Win-Like-96/Images/Air-Jordan-11-Retro-Win-Like-96/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: false,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-11-Retro-Win-Like-96/Images/Air-Jordan-11-Retro-Win-Like-96/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 27,
@@ -258,8 +330,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 199.99,
     rating: 4.6,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-11-Retro-Low-Cement-Grey/Images/Air-Jordan-11-Retro-Low-Cement-Grey/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1680538607&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-11-Retro-Low-Cement-Grey/Images/Air-Jordan-11-Retro-Low-Cement-Grey/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 28,
@@ -267,8 +342,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-3-Retro-White-Cement-Reimagined/Images/Air-Jordan-3-Retro-White-Cement-Reimagined/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-3-Retro-White-Cement-Reimagined/Images/Air-Jordan-3-Retro-White-Cement-Reimagined/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 29,
@@ -276,8 +354,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 1999.99,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1586525198428-225f6f12cff5?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-1-Low-fragment-design-x-Travis-Scott/Images/Air-Jordan-1-Low-fragment-design-x-Travis-Scott/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635183978&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-1-Low-fragment-design-x-Travis-Scott/Images/Air-Jordan-1-Low-fragment-design-x-Travis-Scott/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 30,
@@ -285,8 +366,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-3-Retro-Atmosphere-Mocha-W/Images/Air-Jordan-3-Retro-Atmosphere-Mocha-W/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1659705372&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-3-Retro-Atmosphere-Mocha-W/Images/Air-Jordan-3-Retro-Atmosphere-Mocha-W/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 31,
@@ -294,8 +378,11 @@ const shoes: Shoe[] = [
     brand: "Alexander McQueen",
     price: 899.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Alexander-McQueen-Oversized-Ivory-Black/Images/Alexander-McQueen-Oversized-Ivory-Black/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1700839827&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Alexander-McQueen-Oversized-Ivory-Black/Images/Alexander-McQueen-Oversized-Ivory-Black/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 32,
@@ -303,8 +390,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-3-Retro-Dark-Iris/Images/Air-Jordan-3-Retro-Dark-Iris/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-3-Retro-Dark-Iris/Images/Air-Jordan-3-Retro-Dark-Iris/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 33,
@@ -312,8 +402,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-5-Retro-Aqua/Images/Air-Jordan-5-Retro-Aqua/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-5-Retro-Aqua/Images/Air-Jordan-5-Retro-Aqua/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 34,
@@ -321,8 +414,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-3-Retro-Palomino/Images/Air-Jordan-3-Retro-Palomino/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-3-Retro-Palomino/Images/Air-Jordan-3-Retro-Palomino/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 35,
@@ -330,8 +426,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 399.99,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1586525198428-225f6f12cff5?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-1-Retro-High-OG-Chicago-Reimagined/Images/Air-Jordan-1-Retro-High-OG-Chicago-Reimagined/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1665692308&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-1-Retro-High-OG-Chicago-Reimagined/Images/Air-Jordan-1-Retro-High-OG-Chicago-Reimagined/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 36,
@@ -339,8 +438,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-4-Retro-White-Thunder/Images/Air-Jordan-4-Retro-White-Thunder/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-4-Retro-White-Thunder/Images/Air-Jordan-4-Retro-White-Thunder/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 37,
@@ -348,8 +450,9 @@ const shoes: Shoe[] = [
     brand: "Alexander McQueen",
     price: 899.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/images/Alexander-McQueen-Oversized-Lust-Red.jpg?fit=fill&bg=FFFFFF&w=6000&h=6000&q=6000&dpr=1&trim=color&updated_at=1646853014",
+    isNew: true,
+    has360View: false
   },
   {
     id: 38,
@@ -357,8 +460,11 @@ const shoes: Shoe[] = [
     brand: "Alexander McQueen",
     price: 899.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Alexander-McQueen-Oversized-Ivory-Black/Images/Alexander-McQueen-Oversized-Ivory-Black/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1700839827&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Alexander-McQueen-Oversized-Ivory-Black/Images/Alexander-McQueen-Oversized-Ivory-Black/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 39,
@@ -366,8 +472,11 @@ const shoes: Shoe[] = [
     brand: "Off-White",
     price: 899.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Off-White-x-Air-Jordan-5-SP-Sail/Images/Off-White-x-Air-Jordan-5-SP-Sail/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Off-White-x-Air-Jordan-5-SP-Sail/Images/Off-White-x-Air-Jordan-5-SP-Sail/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 40,
@@ -375,8 +484,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 1999.99,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1586525198428-225f6f12cff5?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Travis-Scott-x-Air-Jordan-1-Retro-Low-OG-PS-Reverse-Mocha/Images/Travis-Scott-x-Air-Jordan-1-Retro-Low-OG-PS-Reverse-Mocha/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Travis-Scott-x-Air-Jordan-1-Retro-Low-OG-PS-Reverse-Mocha/Images/Travis-Scott-x-Air-Jordan-1-Retro-Low-OG-PS-Reverse-Mocha/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 41,
@@ -384,8 +496,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 399.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/A-Ma-Maniere-x-Air-Jordan-4-Retro-Violet-Ore/Images/A-Ma-Maniere-x-Air-Jordan-4-Retro-Violet-Ore/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/A-Ma-Maniere-x-Air-Jordan-4-Retro-Violet-Ore/Images/A-Ma-Maniere-x-Air-Jordan-4-Retro-Violet-Ore/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 42,
@@ -393,8 +508,11 @@ const shoes: Shoe[] = [
     brand: "Alexander McQueen",
     price: 899.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Alexander-McQueen-Oversized-Sneaker-White/Images/Alexander-McQueen-Oversized-Sneaker-White/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Alexander-McQueen-Oversized-Sneaker-White/Images/Alexander-McQueen-Oversized-Sneaker-White/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 43,
@@ -402,8 +520,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-3-Retro-Black-Cat/Images/Air-Jordan-3-Retro-Black-Cat/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-3-Retro-Black-Cat/Images/Air-Jordan-3-Retro-Black-Cat/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 44,
@@ -411,8 +532,11 @@ const shoes: Shoe[] = [
     brand: "Balenciaga",
     price: 899.99,
     rating: 4.6,
-    image: "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Balenciaga-Track-Sneaker-Grey-White/Images/Balenciaga-Track-Sneaker-Grey-White/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Balenciaga-Track-Sneaker-Grey-White/Images/Balenciaga-Track-Sneaker-Grey-White/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 45,
@@ -420,8 +544,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-11-Retro-Cool-Grey/Images/Air-Jordan-11-Retro-Cool-Grey/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-11-Retro-Cool-Grey/Images/Air-Jordan-11-Retro-Cool-Grey/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 46,
@@ -429,8 +556,11 @@ const shoes: Shoe[] = [
     brand: "Off-White",
     price: 899.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&q=80",
-    isNew: false
+    image: "https://images.stockx.com/360/Off-White-x-Air-Jordan-1-Retro-High-OG-UNC/Images/Off-White-x-Air-Jordan-1-Retro-High-OG-UNC/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: false,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Off-White-x-Air-Jordan-1-Retro-High-OG-UNC/Images/Off-White-x-Air-Jordan-1-Retro-High-OG-UNC/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 47,
@@ -438,8 +568,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-5-Retro-Racer-Blue/Images/Air-Jordan-5-Retro-Racer-Blue/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-5-Retro-Racer-Blue/Images/Air-Jordan-5-Retro-Racer-Blue/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 48,
@@ -447,8 +580,11 @@ const shoes: Shoe[] = [
     brand: "Balenciaga",
     price: 899.99,
     rating: 4.6,
-    image: "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Balenciaga-Track-Sneaker-Triple-Black/Images/Balenciaga-Track-Sneaker-Triple-Black/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Balenciaga-Track-Sneaker-Triple-Black/Images/Balenciaga-Track-Sneaker-Triple-Black/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 49,
@@ -456,8 +592,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-11-Retro-Gratitude-Defining-Moments/Images/Air-Jordan-11-Retro-Gratitude-Defining-Moments/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-11-Retro-Gratitude-Defining-Moments/Images/Air-Jordan-11-Retro-Gratitude-Defining-Moments/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 50,
@@ -465,8 +604,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Wmns-Air-Jordan-5-Retro-GORE-TEX-Off-Noir/Images/Wmns-Air-Jordan-5-Retro-GORE-TEX-Off-Noir/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Wmns-Air-Jordan-5-Retro-GORE-TEX-Off-Noir/Images/Wmns-Air-Jordan-5-Retro-GORE-TEX-Off-Noir/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 51,
@@ -474,8 +616,11 @@ const shoes: Shoe[] = [
     brand: "Dior",
     price: 1999.99,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1597248881519-db089d3744a5?auto=format&fit=crop&q=80",
-    isNew: false
+    image: "https://images.stockx.com/360/Dior-x-Air-Jordan-1-High/Images/Dior-x-Air-Jordan-1-High/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: false,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Dior-x-Air-Jordan-1-High/Images/Dior-x-Air-Jordan-1-High/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 52,
@@ -483,8 +628,11 @@ const shoes: Shoe[] = [
     brand: "Dior",
     price: 1299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1597248881519-db089d3744a5?auto=format&fit=crop&q=80",
-    isNew: false
+    image: "https://images.stockx.com/360/Dior-B23-High-Dior-Oblique/Images/Dior-B23-High-Dior-Oblique/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: false,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Dior-B23-High-Dior-Oblique/Images/Dior-B23-High-Dior-Oblique/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 53,
@@ -492,8 +640,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: false
+    image: "https://images.stockx.com/360/Air-Jordan-3-Retro-LS-Cool-Grey/Images/Air-Jordan-3-Retro-LS-Cool-Grey/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: false,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-3-Retro-LS-Cool-Grey/Images/Air-Jordan-3-Retro-LS-Cool-Grey/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 54,
@@ -501,8 +652,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 1999.99,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: false
+    image: "https://images.stockx.com/360/KAWS-x-Air-Jordan-4-Retro-Cool-Grey/Images/KAWS-x-Air-Jordan-4-Retro-Cool-Grey/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: false,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/KAWS-x-Air-Jordan-4-Retro-Cool-Grey/Images/KAWS-x-Air-Jordan-4-Retro-Cool-Grey/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 55,
@@ -510,8 +664,11 @@ const shoes: Shoe[] = [
     brand: "Dior",
     price: 1299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1597248881519-db089d3744a5?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Dior-B30-Charcoal-Light-Grey/Images/Dior-B30-Charcoal-Light-Grey/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Dior-B30-Charcoal-Light-Grey/Images/Dior-B30-Charcoal-Light-Grey/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 56,
@@ -519,8 +676,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: false
+    image: "https://images.stockx.com/360/Air-Jordan-4-Retro-Black-Cat/Images/Air-Jordan-4-Retro-Black-Cat/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: false,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-4-Retro-Black-Cat/Images/Air-Jordan-4-Retro-Black-Cat/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 57,
@@ -528,8 +688,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 399.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: false
+    image: "https://images.stockx.com/360/Paris-Saint-Germain-x-Air-Jordan-4-Retro-Bordeaux/Images/Paris-Saint-Germain-x-Air-Jordan-4-Retro-Bordeaux/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: false,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Paris-Saint-Germain-x-Air-Jordan-4-Retro-Bordeaux/Images/Paris-Saint-Germain-x-Air-Jordan-4-Retro-Bordeaux/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 58,
@@ -537,8 +700,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-4-Retro-SE-Craft-Photon-Dust/Images/Air-Jordan-4-Retro-SE-Craft-Photon-Dust/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-4-Retro-SE-Craft-Photon-Dust/Images/Air-Jordan-4-Retro-SE-Craft-Photon-Dust/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 59,
@@ -546,8 +712,11 @@ const shoes: Shoe[] = [
     brand: "Dior",
     price: 1299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1597248881519-db089d3744a5?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Dior-B22-White-Grey/Images/Dior-B22-White-Grey/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Dior-B22-White-Grey/Images/Dior-B22-White-Grey/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 60,
@@ -555,8 +724,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-4-Retro-Infrared/Images/Air-Jordan-4-Retro-Infrared/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-4-Retro-Infrared/Images/Air-Jordan-4-Retro-Infrared/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 61,
@@ -564,8 +736,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-4-Retro-Military-Blue/Images/Air-Jordan-4-Retro-Military-Blue/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-4-Retro-Military-Blue/Images/Air-Jordan-4-Retro-Military-Blue/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 62,
@@ -573,8 +748,11 @@ const shoes: Shoe[] = [
     brand: "Dior",
     price: 1299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1597248881519-db089d3744a5?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Dior-B30-Black/Images/Dior-B30-Black/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Dior-B30-Black/Images/Dior-B30-Black/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 63,
@@ -582,8 +760,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-4-Retro-Red-Cement/Images/Air-Jordan-4-Retro-Red-Cement/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-4-Retro-Red-Cement/Images/Air-Jordan-4-Retro-Red-Cement/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 64,
@@ -591,8 +772,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: false
+    image: "https://images.stockx.com/360/Air-Jordan-5-Retro-Black-Grape/Images/Air-Jordan-5-Retro-Black-Grape/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: false,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-5-Retro-Black-Grape/Images/Air-Jordan-5-Retro-Black-Grape/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 65,
@@ -600,8 +784,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-4-Retro-Military-Black/Images/Air-Jordan-4-Retro-Military-Black/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-4-Retro-Military-Black/Images/Air-Jordan-4-Retro-Military-Black/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 66,
@@ -609,8 +796,11 @@ const shoes: Shoe[] = [
     brand: "Alexander McQueen",
     price: 899.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Alexander-McQueen-Oversized-Sneaker-Black/Images/Alexander-McQueen-Oversized-Sneaker-Black/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Alexander-McQueen-Oversized-Sneaker-Black/Images/Alexander-McQueen-Oversized-Sneaker-Black/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 67,
@@ -618,8 +808,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 1999.99,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1586525198428-225f6f12cff5?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Travis-Scott-x-Air-Jordan-1-Retro-Low-OG-SP-Reverse-Olive/Images/Travis-Scott-x-Air-Jordan-1-Retro-Low-OG-SP-Reverse-Olive/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Travis-Scott-x-Air-Jordan-1-Retro-Low-OG-SP-Reverse-Olive/Images/Travis-Scott-x-Air-Jordan-1-Retro-Low-OG-SP-Reverse-Olive/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 68,
@@ -627,8 +820,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 399.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Nike-SB-x-Air-Jordan-4-Retro-SP-Pine-Green/Images/Nike-SB-x-Air-Jordan-4-Retro-SP-Pine-Green/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Nike-SB-x-Air-Jordan-4-Retro-SP-Pine-Green/Images/Nike-SB-x-Air-Jordan-4-Retro-SP-Pine-Green/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 69,
@@ -636,8 +832,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: false
+    image: "https://images.stockx.com/360/Air-Jordan-3-Retro-OG-Black-Cement/Images/Air-Jordan-3-Retro-OG-Black-Cement/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: false,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-3-Retro-OG-Black-Cement/Images/Air-Jordan-3-Retro-OG-Black-Cement/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 70,
@@ -645,8 +844,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 1999.99,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1586525198428-225f6f12cff5?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Travis-Scott-x-Air-Jordan-1-Retro-Low-OG-SP-Black-Phantom/Images/Travis-Scott-x-Air-Jordan-1-Retro-Low-OG-SP-Black-Phantom/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Travis-Scott-x-Air-Jordan-1-Retro-Low-OG-SP-Black-Phantom/Images/Travis-Scott-x-Air-Jordan-1-Retro-Low-OG-SP-Black-Phantom/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 71,
@@ -654,8 +856,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: false
+    image: "https://images.stockx.com/360/Air-Jordan-3-Retro-UNC/Images/Air-Jordan-3-Retro-UNC/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: false,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-3-Retro-UNC/Images/Air-Jordan-3-Retro-UNC/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 72,
@@ -663,8 +868,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: false
+    image: "https://images.stockx.com/360/Air-Jordan-11-Retro-Low-Emerald/Images/Air-Jordan-11-Retro-Low-Emerald/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: false,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-11-Retro-Low-Emerald/Images/Air-Jordan-11-Retro-Low-Emerald/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 73,
@@ -672,8 +880,11 @@ const shoes: Shoe[] = [
     brand: "Off-White",
     price: 899.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&q=80",
-    isNew: false
+    image: "https://images.stockx.com/360/Off-White-x-Air-Jordan-1-Retro-High-OG-Chicago/Images/Off-White-x-Air-Jordan-1-Retro-High-OG-Chicago/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: false,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Off-White-x-Air-Jordan-1-Retro-High-OG-Chicago/Images/Off-White-x-Air-Jordan-1-Retro-High-OG-Chicago/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 74,
@@ -681,8 +892,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-4-Retro-University-Blue/Images/Air-Jordan-4-Retro-University-Blue/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-4-Retro-University-Blue/Images/Air-Jordan-4-Retro-University-Blue/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 75,
@@ -690,8 +904,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-3-Retro-Midnight-Navy/Images/Air-Jordan-3-Retro-Midnight-Navy/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-3-Retro-Midnight-Navy/Images/Air-Jordan-3-Retro-Midnight-Navy/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 76,
@@ -699,8 +916,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: false
+    image: "https://images.stockx.com/360/Air-Jordan-11-Retro-Bred/Images/Air-Jordan-11-Retro-Bred/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: false,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-11-Retro-Bred/Images/Air-Jordan-11-Retro-Bred/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 77,
@@ -708,8 +928,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-4-Retro-Thunder/Images/Air-Jordan-4-Retro-Thunder/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-4-Retro-Thunder/Images/Air-Jordan-4-Retro-Thunder/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 78,
@@ -717,8 +940,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-4-Retro-Red-Thunder/Images/Air-Jordan-4-Retro-Red-Thunder/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-4-Retro-Red-Thunder/Images/Air-Jordan-4-Retro-Red-Thunder/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 79,
@@ -726,8 +952,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 399.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1586525198428-225f6f12cff5?auto=format&fit=crop&q=80",
-    isNew: false
+    image: "https://images.stockx.com/360/Air-Jordan-1-Retro-High-OG-Dark-Mocha/Images/Air-Jordan-1-Retro-High-OG-Dark-Mocha/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: false,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-1-Retro-High-OG-Dark-Mocha/Images/Air-Jordan-1-Retro-High-OG-Dark-Mocha/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 80,
@@ -735,8 +964,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 199.99,
     rating: 4.6,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-3-Retro-White-Cement-Reimagined/Images/Air-Jordan-3-Retro-White-Cement-Reimagined/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-3-Retro-White-Cement-Reimagined/Images/Air-Jordan-3-Retro-White-Cement-Reimagined/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 81,
@@ -744,8 +976,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 1999.99,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: false
+    image: "https://images.stockx.com/360/Travis-Scott-x-Air-Jordan-4-Retro-Cactus-Jack/Images/Travis-Scott-x-Air-Jordan-4-Retro-Cactus-Jack/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: false,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Travis-Scott-x-Air-Jordan-4-Retro-Cactus-Jack/Images/Travis-Scott-x-Air-Jordan-4-Retro-Cactus-Jack/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 82,
@@ -753,8 +988,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-4-Retro-White-Oreo/Images/Air-Jordan-4-Retro-White-Oreo/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-4-Retro-White-Oreo/Images/Air-Jordan-4-Retro-White-Oreo/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 83,
@@ -762,8 +1000,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 399.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Nike-SB-x-Air-Jordan-4-Retro-SP-Navy/Images/Nike-SB-x-Air-Jordan-4-Retro-SP-Navy/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Nike-SB-x-Air-Jordan-4-Retro-SP-Navy/Images/Nike-SB-x-Air-Jordan-4-Retro-SP-Navy/Lv2/img",
+    image360Frames: 36
   },
   {
     id: 84,
@@ -771,8 +1012,11 @@ const shoes: Shoe[] = [
     brand: "Jordan",
     price: 299.99,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&q=80",
-    isNew: true
+    image: "https://images.stockx.com/360/Air-Jordan-4-Retro-Bred-Reimagined/Images/Air-Jordan-4-Retro-Bred-Reimagined/Lv2/img01.jpg?w=576&q=60&dpr=1&updated_at=1635191289&h=384",
+    isNew: true,
+    has360View: true,
+    image360BaseUrl: "https://images.stockx.com/360/Air-Jordan-4-Retro-Bred-Reimagined/Images/Air-Jordan-4-Retro-Bred-Reimagined/Lv2/img",
+    image360Frames: 36
   }
 ];
 
