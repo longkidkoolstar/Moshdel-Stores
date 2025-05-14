@@ -41,6 +41,7 @@ const ProductViewer360: React.FC<ProductViewer360Props> = ({
 
   // Handle touch start event for mobile
   const handleTouchStart = (e: React.TouchEvent) => {
+    e.preventDefault(); // Prevent default browser behavior
     setIsDragging(true);
     setStartX(e.touches[0].clientX);
   };
@@ -59,6 +60,7 @@ const ProductViewer360: React.FC<ProductViewer360Props> = ({
 
   // Handle touch move event for mobile
   const handleTouchMove = (e: React.TouchEvent) => {
+    e.preventDefault(); // Prevent default browser behavior
     if (!isDragging) return;
 
     const deltaX = e.touches[0].clientX - startX;
@@ -75,7 +77,8 @@ const ProductViewer360: React.FC<ProductViewer360Props> = ({
   };
 
   // Handle touch end event for mobile
-  const handleTouchEnd = () => {
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    e.preventDefault(); // Prevent default browser behavior
     setIsDragging(false);
   };
 
@@ -181,7 +184,7 @@ const ProductViewer360: React.FC<ProductViewer360Props> = ({
       <div
         ref={containerRef}
         className={`relative select-none ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
-        style={{ width: `${width}px`, height: `${height}px` }}
+        style={{ width: `${width}px`, height: `${height}px`, touchAction: 'none' }}
         onMouseDown={handleMouseDown}
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
